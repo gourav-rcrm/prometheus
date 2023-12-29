@@ -1,0 +1,9 @@
+version: "3"
+services:
+  python-application:
+    build:
+      context: ./
+    container_name: python-application
+    image: python-application
+    ports:
+      - "8080:5000"
